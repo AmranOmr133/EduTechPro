@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTechPro - تواصل معنا للحصول على خدماتك الأكاديمية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href=" assets/css/style.css">
+
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    // استبدل YOUR_USER_ID بالمعرف الخاص بك
+    emailjs.init('1KwoqynYHdjDaytuR');
+  </script>
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Edu<span>Tech</span>Pro</a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html" >الرئيسية</a></li>
+                    <li><a href="services.html">الخدمات</a></li>
+                    <li><a href="projects.html">المشاريع</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html" class="active">تواصل معنا</a></li>
+                    <li> <a href="https://wa.me/967778420154" class="btn whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> واتساب
+                    </a></li>
+                    <li>   </a>
+                    <a href="https://t.me/Program_and_Designed" class="btn telegram-btn">
+                        <i class="fab fa-telegram"></i> تيليجرام
+                    </a></li>
+                </ul>
+        
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- صفحة التواصل -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>تواصل معنا</h1>
+                <p>نحن هنا لمساعدتك في أي استفسار أو طلب خدمة، لا تتردد في التواصل</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h2>أرسل لنا رسالة</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">الخدمة المطلوبة</label>
+                            <select id="service" name="service">
+                                <option value="">اختر الخدمة</option>
+                                <option value="programming">المساعدة البرمجية</option>
+                                <option value="research">كتابة البحوث</option>
+                                <option value="thesis">مشاريع التخرج</option>
+                                <option value="database">قواعد البيانات</option>
+                                <option value="other">خدمة أخرى</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn primary-btn">إرسال الرسالة</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>معلومات التواصل</h2>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>البريد الإلكتروني</h3>
+                            <p>amranomr122@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info-content">
+                            <a href="https://wa.me/967778420154">
+                            <h3>واتساب</h3>
+                            <p>+967 778420154</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="info-content">
+                            <a href="https://t.me/Program_and_Designed">
+                            <h3>تيليجرام</h3>
+                            <p>t.me/Program_and_Designed</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>أوقات العمل</h3>
+                            <p>الأحد - الخميس: 9 صباحاً - 5 مساءً</p>
+                            <p>الجمعة والسبت: إجازة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <h2>الأسئلة الشائعة</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">كم تستغرق مدة إنجاز المشروع؟</button>
+                        <div class="faq-answer">
+                            <p>تختلف مدة الإنجاز حسب نوع الخدمة وتعقيد المشروع. بشكل عام، تستغرق المشاريع البرمجية البسيطة من 3-7 أيام، بينما قد تستغرق مشاريع التخرج الكبيرة من 2-8 أسابيع. نحرص دائماً على الاتفاق مع العميل على موعد نهائي واضح قبل بدء العمل.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">كيف يتم الدفع مقابل الخدمات؟</button>
+                        <div class="faq-answer">
+                            <p>نقبل الدفع عبر التحويل البنكي أو المحافظ الإلكترونية. في بعض الحالات، يمكن تقسيم المبلغ إلى دفعتين: 50% مقدمة و50% عند استلام العمل. نقدم فاتورة رسمية لكل الخدمات المقدمة.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">هل تضمنون السرية والخصوصية؟</button>
+                        <div class="faq-answer">
+                            <p>نعم، نعتبر السرية التامة أحد أهم قيمنا. لا نشارك أي معلومات عن العملاء أو مشاريعهم مع أي طرف ثالث، ونقدم اتفاقية سرية عند الطلب. يمكنك التأكد من أن عملك سيبقى سرياً وآمناً معنا.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">هل تقدموا خدمات التعديل بعد التسليم؟</button>
+                        <div class="faq-answer">
+                            <p>نعم، نوفر فترة ضمان لمدة أسبوعين بعد تسليم المشروع لإجراء أي تعديلات طفيفة قد يحتاجها العميل دون أي تكلفة إضافية. للتعديلات الجوهرية أو الإضافات الكبيرة، يتم الاتفاق على تكلفة إضافية حسب طبيعة التعديل.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>EduTechPro</h3>
+                    <p>نقدم حلولاً أكاديمية وتقنية مخصصة لطلاب الجامعات لمساعدتهم في تحقيق التميز في مشاريعهم ودراستهم.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://t.me/Program_and_Designed"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href=" index.html">الرئيسية</a></li>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="projects.html">المشاريع</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>الخدمات</h3>
+                    <ul>
+                        <li><a href="services.html#programming">المساعدة البرمجية</a></li>
+                        <li><a href="services.html#research">كتابة البحوث</a></li>
+                        <li><a href="services.html#thesis">مشاريع التخرج</a></li>
+                        <li><a href="services.html#reports">إعداد التقارير</a></li>
+                        <li><a href="services.html#databases">قواعد البيانات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>تواصل معنا</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> amranomr122@gmail.com</li>
+                        <li><i class="fab fa-whatsapp"></i> +967 778420154</li>
+                        <li><i class="fab fa-telegram"></i> t.me/Program_and_Designed</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduTechPro. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src=" assets/js/main.js"></script>
+    <script>
+        // FAQ Accordion
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const isOpen = answer.style.maxHeight;
+                    
+                    // إغلاق جميع الإجابات أولاً
+                    document.querySelectorAll('.faq-answer').forEach(item => {
+                        item.style.maxHeight = null;
+                        item.previousElementSibling.classList.remove('active');
+                    });
+                    
+                    // فتح الإجابة الحالية إذا كانت مغلقة
+                    if (!isOpen) {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        this.classList.add('active');
+                    }
+                });
+            });
+            
+            // إرسال نموذج التواصل
+   
+        });
+    </script>
+</body>
+</html>
